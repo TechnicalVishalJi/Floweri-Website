@@ -1,0 +1,138 @@
+    * {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: 'Rubik', sans-serif;
+    }
+    
+    .home {
+      color: rgb(16,207,255);
+    }
+    
+    .flower {
+      float: left;
+    }
+  
+    ul li {
+      display: inline-block;
+      padding-right: 20px;
+      font-weight: bold;
+    }
+    
+    ul li a:hover {
+      text-decoration: underline;
+      text-decoration-color: red;
+      color: red;
+    }
+    
+    ul {
+      text-align: right;
+    }
+    
+    .knowledge {
+      font-size: 30px;
+      border-radius: 40px;
+      padding: 20px;
+      font-family: 'Dosis', sans-serif;
+      
+      background-color: rgba(155,233,252,1);
+    }
+    
+    .flowerpot {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    ul li a {
+     text-decoration: none;
+     list-style-type: none;
+     color: black;
+    }
+    
+    .pot {
+      height: 14em;
+      width: 9em;
+    }
+    
+    main {
+      height: 8px;
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: rgba(155,233,252,1);
+    }
+    
+    .inter {
+      font-family: 'Dosis', sans-serif;
+      margin-top: 30px;
+    }
+    
+    hr {
+     margin-top: 30px;
+    }
+    
+    .tulip {
+      height: 8em;
+    }
+    
+    .container1 img {
+       height: 4em;
+       width: 5em;
+    }
+    
+    .container2 img {
+       height: 4em;
+       width: 5em;
+    }
+    
+    .container3 img {
+       height: 4em;
+       width: 5em;
+    }
+    
+    .container1{
+      position: absolute;
+      left: 5%;
+      width: 25%;
+      
+    }
+    
+    .container2{
+      position: absolute;
+      left: 35%;
+      width: 25%;
+    }
+    
+    .container3 {
+      width: 25%;
+      position: absolute;
+      left: 65%;
+    }
+    
+    .facts {
+      
+      font-size: 15px;
+      position: relative;
+    }
+    
+    .container {
+      
+    }
+    
+    .container1, .container2, .container3 {
+      
+      box-shadow: 2px 2px 20px 0 grey;
+    }
+    
+    .largest {
+      padding: 5px;
+    }
+    
+    .bulbs {
+      padding: 5px;
+    }
+    
+    .bali {
+      padding: 5px;
+    }
